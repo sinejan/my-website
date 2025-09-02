@@ -1,0 +1,31 @@
+{
+  "name": "Şehra Sinejan Eser - Cloud Engineer Portfolio",
+  "short_name": "Sinejan Portfolio",
+  "description": "Portfolio of Şehra Sinejan Eser, Junior Cloud Engineer specializing in AWS, DevOps, and cloud infrastructure.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#3B38A0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["portfolio", "professional", "cloud", "engineering"],
+  "lang": "en",
+  "dir": "ltr"
+}

@@ -1,0 +1,17 @@
+/* Root Level CSS - Main Entry Point */
+
+/* Import shared styles and colors */
+@import url('./src/components/shared/colors.css');
+@import url('./src/components/shared/reset.css');
+@import url('./src/components/shared/typography.css');
+
+/* Import component styles in hierarchical order */
+@import url('./src/components/hero/hero.css');
+@import url('./src/components/body/body.css');
+@import url('./src/components/footer/footer.css');
+
+/* Import section-specific styles */
+@import url('./src/components/styles/layout.css');
+@import url('./src/components/styles/animations.css');
+@import url('./src/components/styles/modals.css');
+@import url('./src/components/styles/responsive.css');
