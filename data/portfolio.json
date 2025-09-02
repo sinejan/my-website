@@ -78,26 +78,29 @@
 			"gpa": "3.27/4",
 			"startYear": 2021,
 			"activities": [
-				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#"
+				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#",
+				"Organization Core member at Google Developer Student Club (GDSC)",
+				"AWS Cloud Club Core Team Member"
 			]
 		},
-		{
-			"id": "antalya-aci",
-			"institution": "Antalya Açı Science High School",
-			"degree": "High School Diploma",
-			"field": "Maths and Science",
-			"startYear": 2018,
-			"endYear": 2020
-		},
-		{
-			"id": "adem-tolunay",
-			"institution": "Adem Tolunay Anatolian High School",
-			"degree": "High School Diploma",
-			"field": "Maths and Science",
-			"gpa": "96/100",
-			"startYear": 2016,
-			"endYear": 2018
-		}
+		// {
+		// 	"id": "antalya-aci",
+		// 	"institution": "Antalya Açı Science High School",
+		// 	"degree": "High School Diploma",
+		// 	"field": "Maths and Science",
+		// 	"gpa": "96/100",
+		// 	"startYear": 2018,
+		// 	"endYear": 2020
+		// },
+		// {
+		// 	"id": "adem-tolunay",
+		// 	"institution": "Adem Tolunay Anatolian High School",
+		// 	"degree": "High School Diploma",
+		// 	"field": "Maths and Science",
+		// 	"gpa": "96/100",
+		// 	"startYear": 2016,
+		// 	"endYear": 2018
+		// }
 	],
 	"certificates": [
 		{
