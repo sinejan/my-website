@@ -82,25 +82,7 @@
 				"Organization Core member at Google Developer Student Club (GDSC)",
 				"AWS Cloud Club Core Team Member"
 			]
-		},
-		// {
-		// 	"id": "antalya-aci",
-		// 	"institution": "Antalya Açı Science High School",
-		// 	"degree": "High School Diploma",
-		// 	"field": "Maths and Science",
-		// 	"gpa": "96/100",
-		// 	"startYear": 2018,
-		// 	"endYear": 2020
-		// },
-		// {
-		// 	"id": "adem-tolunay",
-		// 	"institution": "Adem Tolunay Anatolian High School",
-		// 	"degree": "High School Diploma",
-		// 	"field": "Maths and Science",
-		// 	"gpa": "96/100",
-		// 	"startYear": 2016,
-		// 	"endYear": 2018
-		// }
+		}
 	],
 	"certificates": [
 		{
