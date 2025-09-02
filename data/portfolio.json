@@ -19,7 +19,7 @@
 			"endDate": "Present",
 			"type": "full-time",
 			"responsibilities": [
-				"Managing and supporting cloud infrastructure using AWS services such as ECS, EKS, Lambda, S3, RDS, DynamoDB, API Gateway, SNS, SQS, Bedrock",
+				"Managing and supporting cloud infrastructure using AWS services such as ECS, EKS, Lambda, S3, RDS, DynamoDB, API Gateway, SNS, SQS, Bedrock...",
 				"Optimizing Docker container deployments and automating Nginx configurations",
 				"Implementing Infrastructure as Code (IaC) processes using Terraform and automating infrastructure updates",
 				"Executing CI/CD pipelines with Git to accelerate delivery processes",
