@@ -207,11 +207,11 @@
 			]
 		},
 		{
-			"category": "DevOps & Tools",
+			"category": "DevOps and Tools",
 			"skills": ["Docker", "Terraform", "Git", "CI/CD", "Nginx"]
 		},
 		{
-			"category": "Data & Analytics",
+			"category": "Data and Analytics",
 			"skills": ["Data Structure", "Tableau", "Data Analytics"]
 		}
 	],
