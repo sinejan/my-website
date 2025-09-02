@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şehra Sinejan Eser - Cloud Engineer Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Şehra Sinejan Eser, Junior Cloud Engineer specializing in AWS, DevOps, and cloud infrastructure.">
+    <meta name="keywords" content="cloud engineer, AWS, DevOps, software engineer, portfolio, Şehra Sinejan Eser">
+    <meta name="author" content="Şehra Sinejan Eser">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Şehra Sinejan Eser - Cloud Engineer Portfolio">
+    <meta property="og:description"
+        content="Portfolio of Şehra Sinejan Eser, Junior Cloud Engineer specializing in AWS, DevOps, and cloud infrastructure.">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Şehra Sinejan Eser - Cloud Engineer Portfolio">
+    <meta property="twitter:description"
+        content="Portfolio of Şehra Sinejan Eser, Junior Cloud Engineer specializing in AWS, DevOps, and cloud infrastructure.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="./manifest.json">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+  <script type="module" crossorigin src="./assets/main-BLS4jS9l.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-ChbLEJCO.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sinejan</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#overview" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="main-container">
+            <!-- Hero Section - Content will be dynamically rendered -->
+            <section id="home" class="hero-section">
+                <!-- Hero content will be injected here by HeroSection component -->
+            </section>
+
+            <!-- Certificates Section - Content will be dynamically rendered -->
+            <section id="certificates" class="certificates-section">
+                <!-- Certificates content will be injected here by CertificatesSection component -->
+            </section>
+
+            <!-- About Section - Content will be dynamically rendered -->
+            <section id="about" class="about-section">
+                <!-- About content will be injected here by AboutSection component -->
+            </section>
+
+            <!-- Overview Section - Content will be dynamically rendered -->
+            <section id="overview" class="overview-section">
+                <!-- Overview content will be injected here by ProjectsSection component -->
+            </section>
+
+            <!-- Contact Section - Content will be dynamically rendered -->
+            <section id="contact" class="contact-section">
+                <!-- Contact content will be injected here by ContactSection component -->
+            </section>
+        </div>
+    </main>
+
+    <!-- Modals -->
+    <div id="experience-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Professional Experience</h2>
+                <button class="modal-close" onclick="closeModal('experience-modal')">&times;</button>
+            </div>
+            <div class="modal-body" id="experience-modal-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="skills-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Technical Skills</h2>
+                <button class="modal-close" onclick="closeModal('skills-modal')">&times;</button>
+            </div>
+            <div class="modal-body" id="skills-modal-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="education-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Education</h2>
+                <button class="modal-close" onclick="closeModal('education-modal')">&times;</button>
+            </div>
+            <div class="modal-body" id="education-modal-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+
+    <div id="certificates-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>AWS Certifications</h2>
+                <button class="modal-close" onclick="closeModal('certificates-modal')">&times;</button>
+            </div>
+            <div class="modal-body" id="certificates-modal-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="project-modal-title">Project Details</h2>
+                <button class="modal-close" onclick="closeModal('project-modal')">&times;</button>
+            </div>
+            <div class="modal-body" id="project-modal-content">
+                <!-- Project content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Şehra Sinejan Eser. All rights reserved.</p>
+                <p>Built with TypeScript & Modern Web Technologies</p>
+                <p class="footer-location">
+                    <i data-lucide="map-pin"></i>
+                    <span id="footer-location">Istanbul, Şişli, Türkiye</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Functions Script -->
+    <script>
+        function openModal(modalId) {
+            console.log('Opening modal:', modalId);
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+                console.log('Modal opened successfully');
+            } else {
+                console.error('Modal not found:', modalId);
+            }
+        }
+
+        function closeModal(modalId) {
+            console.log('Closing modal:', modalId);
+            const modal = document.getElementById(modalId);
+            if (modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+                console.log('Modal closed successfully');
+            }
+        }
+
+        // Close modal when clicking outside
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('modal')) {
+                e.target.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const activeModal = document.querySelector('.modal.active');
+                if (activeModal) {
+                    activeModal.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            }
+        });
+    </script>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</body>
+
+</html>

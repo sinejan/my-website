@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sinejaneser.com/sitemap.xml
+
+# Disallow crawling of development files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /dist/assets/
+Disallow: *.map
+
+# Allow crawling of important files
+Allow: /favicon.svg
+Allow: /images/
