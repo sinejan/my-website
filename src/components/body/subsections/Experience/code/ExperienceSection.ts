@@ -42,7 +42,7 @@ export class ExperienceSection {
 
     const mentorshipHTML = mentorships.length > 0 ? `
       <div class="modal-section">
-        <h3>Mentorships & Programs</h3>
+        <h3>Mentorships and Programs</h3>
         ${mentorships.map(mentorship => `
           <div class="experience-item">
             <h4>${mentorship.program}</h4>

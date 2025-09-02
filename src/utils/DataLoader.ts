@@ -9,8 +9,8 @@ export class DataLoader {
   static async loadPortfolioData(): Promise<PortfolioData> {
     try {
       if (this.cachedData) return this.cachedData;
-      const module = await import('@/data/portfolio.json');
-      const data = (module as any).default as PortfolioData;
+      const response = await fetch('/data/portfolio.json');
+      const data = await response.json() as PortfolioData;
       this.cachedData = data;
       return data;
     } catch (error) {

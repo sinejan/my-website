@@ -7,7 +7,7 @@
 		"email": "sehrasinejan@gmail.com",
 		"linkedin": "https://www.linkedin.com/in/sinejaneser/",
 		"github": "https://github.com/sinejan",
-		"bio": "As a computer engineering student actively involved in extracurricular activities, I enjoy using technology to solve real-world problems and am constantly striving to improve myself in various areas."
+		"bio": "As a Computer engineering student actively engaged in extracurricular projects to continuous learning and skill development. Currently serving as a Junior Cloud Engineer, I work with AWS infrastructure optimization, and automated system management. Parallel to my cloud engineering work, I'm pursuing advanced AI training programs and professional mentorships, building a diverse skill set that spans multiple technology domains."
 	},
 	"experience": [
 		{
@@ -19,7 +19,7 @@
 			"endDate": "Present",
 			"type": "full-time",
 			"responsibilities": [
-				"Managing and supporting cloud infrastructure using AWS services such as ECS, EKS, Lambda, S3, RDS, DynamoDB, API Gateway, SNS, SQS, Bedrock",
+				"Managing and supporting cloud infrastructure using AWS services such as ECS, EKS, Lambda, S3, RDS, DynamoDB, API Gateway, SNS, SQS, Bedrock...",
 				"Optimizing Docker container deployments and automating Nginx configurations",
 				"Implementing Infrastructure as Code (IaC) processes using Terraform and automating infrastructure updates",
 				"Executing CI/CD pipelines with Git to accelerate delivery processes",
@@ -78,25 +78,10 @@
 			"gpa": "3.27/4",
 			"startYear": 2021,
 			"activities": [
-				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#"
+				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#",
+				"Organization Core member at Google Developer Student Club (GDSC)",
+				"AWS Cloud Club Core Team Member"
 			]
-		},
-		{
-			"id": "antalya-aci",
-			"institution": "Antalya Açı Science High School",
-			"degree": "High School Diploma",
-			"field": "Maths and Science",
-			"startYear": 2018,
-			"endYear": 2020
-		},
-		{
-			"id": "adem-tolunay",
-			"institution": "Adem Tolunay Anatolian High School",
-			"degree": "High School Diploma",
-			"field": "Maths and Science",
-			"gpa": "96/100",
-			"startYear": 2016,
-			"endYear": 2018
 		}
 	],
 	"certificates": [
@@ -207,11 +192,11 @@
 			]
 		},
 		{
-			"category": "DevOps & Tools",
+			"category": "DevOps and Tools",
 			"skills": ["Docker", "Terraform", "Git", "CI/CD", "Nginx"]
 		},
 		{
-			"category": "Data & Analytics",
+			"category": "Data and Analytics",
 			"skills": ["Data Structure", "Tableau", "Data Analytics"]
 		}
 	],

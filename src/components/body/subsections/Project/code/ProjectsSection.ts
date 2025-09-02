@@ -53,7 +53,7 @@ export class ProjectsSection {
       while (true) {
         try {
           const fileName = `${projectIndex}.json`;
-          const response = await fetch(`/src/data/projects/${fileName}`);
+          const response = await fetch(`/data/projects/${fileName}`);
 
           if (!response.ok) {
             // If we can't fetch this file, assume we've reached the end
@@ -98,7 +98,7 @@ export class ProjectsSection {
     const projectsWithData = await Promise.all(
       projects.map(async (project, index) => {
         try {
-          const response = await fetch(`/src/data/projects/${index + 1}.json`);
+          const response = await fetch(`/data/projects/${index + 1}.json`);
           const data = await response.json();
           return { ...project, data };
         } catch (error) {
@@ -265,7 +265,7 @@ export class ProjectsSection {
   private async populateProjectModal(projectId: number): Promise<void> {
     try {
       // Fetch the project data
-      const response = await fetch(`/src/data/projects/${projectId}.json`);
+      const response = await fetch(`/data/projects/${projectId}.json`);
       if (!response.ok) {
         console.error(`Failed to fetch project ${projectId}`);
         return;

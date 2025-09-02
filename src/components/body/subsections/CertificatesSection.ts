@@ -28,7 +28,7 @@ export class CertificatesSection {
 
   private async loadCertificates(): Promise<Certificate[]> {
     try {
-      const response = await fetch('/src/data/portfolio.json');
+      const response = await fetch('/data/portfolio.json');
       const data = await response.json();
       return data.certificates || [];
     } catch (error) {
