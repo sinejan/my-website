@@ -1,42 +1,52 @@
 {
 	"personalInfo": {
 		"name": "Şehra Sinejan Eser",
-		"title": "Junior Cloud Engineer",
-		"location": "Istanbul, Şişli, Türkiye",
+		"title": "Cloud/AI Engineer",
+		"location": "Şişli, Istanbul",
 		"phone": "",
 		"email": "sehrasinejan@gmail.com",
 		"linkedin": "https://www.linkedin.com/in/sinejaneser/",
 		"github": "https://github.com/sinejan",
-		"bio": "As a Computer engineering student actively engaged in extracurricular projects to continuous learning and skill development. Currently serving as a Junior Cloud Engineer, I work with AWS infrastructure optimization, and automated system management. Parallel to my cloud engineering work, I'm pursuing advanced AI training programs and professional mentorships, building a diverse skill set that spans multiple technology domains."
+		"bio": "Cloud Engineer and tech enthusiast focused on optimizing AWS infrastructure and automating system management. I'm also expanding my skills through advanced AI/ML training, actively developing and delivering AI-powered solutions that integrate cloud technologies, DevOps practices, and intelligent automation to build smarter, more efficient systems."
 	},
 	"experience": [
 		{
 			"id": "skyloop-2025",
 			"company": "Skyloop Cloud",
-			"position": "Junior Cloud Engineer",
-			"location": "Maslak, Istanbul, Hybrid",
+			"position": "Cloud/AI Engineer",
+			"location": "Istanbul, Turkey",
 			"startDate": "01.2025",
 			"endDate": "Present",
 			"type": "full-time",
 			"responsibilities": [
-				"Managing and supporting cloud infrastructure using AWS services such as ECS, EKS, Lambda, S3, RDS, DynamoDB, API Gateway, SNS, SQS, Bedrock...",
-				"Optimizing Docker container deployments and automating Nginx configurations",
-				"Implementing Infrastructure as Code (IaC) processes using Terraform and automating infrastructure updates",
-				"Executing CI/CD pipelines with Git to accelerate delivery processes",
-				"Working with both relational (RDS) and NoSQL (DynamoDB) databases",
-				"Monitoring AWS services in daily operations and contributing to troubleshooting and solution development"
+				"Managed and supported cloud infrastructure using AWS managed services, optimizing deployments, automating configurations, and implementing Infrastructure as Code to streamline operations",
+				"Executed CI/CD pipelines, monitored cloud systems using advanced observability and monitoring tools, and resolved complex issues to accelerate development and deployment processes",
+				"Migrated production environments from on-premises to cloud with zero downtime, ensuring seamless transitions and operational continuity",
+				"Developed and deployed AI-driven solutions, including custom agentic chatbots and intelligent document processing pipelines, to enhance business workflows",
+				"Trained anomaly detection models for a major telecommunications company and presented results to leadership, contributing to strategic decision-making in cloud operations"
 			],
 			"technologies": [
 				"AWS",
-				"Docker",
-				"Terraform",
-				"Git",
 				"ECS",
 				"EKS",
 				"Lambda",
+				"EC2",
 				"S3",
 				"RDS",
-				"DynamoDB"
+				"DynamoDB",
+				"Bedrock",
+				"SageMaker",
+				"Kubernetes",
+				"Docker",
+				"Terraform",
+				"CloudFormation",
+				"CI/CD",
+				"Prometheus",
+				"Grafana",
+				"OpenTelemetry",
+				"CloudWatch",
+				"MLflow",
+				"Redis"
 			]
 		},
 		{
@@ -52,7 +62,11 @@
 				"Part of the team that supported Total Cost of Ownership (TCO) modeling and business case development by gathering stakeholder requirements",
 				"Contributed to developing a migration plan and readiness assessment report"
 			],
-			"technologies": ["Docker", "AWS", "Azure"]
+			"technologies": [
+				"Docker",
+				"AWS",
+				"Azure"
+			]
 		},
 		{
 			"id": "peacekeepers-data-2023",
@@ -64,9 +78,200 @@
 			"type": "volunteer",
 			"responsibilities": [
 				"Used Python programming and performed simple analysis using Tableau",
-				"Gained knowledge of data analytics processes"
+				"Gained basic knowledge of data analytics processes"
 			],
-			"technologies": ["Python", "Tableau"]
+			"technologies": [
+				"Python",
+				"Tableau"
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": "sagemaker-anomaly-detection",
+			"title": "AWS SageMaker RCF Multi-Server Anomaly Detection",
+			"description": "Built an enterprise-grade anomaly detection system using AWS SageMaker's Random Cut Forest algorithm to analyze system metrics across multiple servers with automated serverless deployment.",
+			"technologies": [
+				"AWS SageMaker",
+				"S3",
+				"Python",
+				"RCF Algorithm",
+				"StandardScaler",
+				"Batch Processing"
+			],
+			"highlights": [
+				"Analyzed comprehensive system metrics including CPU, memory, disk I/O, network, and load across multiple servers",
+				"Trained Random Cut Forest model with optimized parameters for accurate anomaly detection",
+				"Deployed serverless endpoint with statistical threshold optimization for real-time detection",
+				"Implemented batch processing pipeline for efficient large-scale data analysis",
+				"Presented system demo and results to client cloud department leadership"
+			],
+			"outcome": "Delivered production-ready anomaly detection system with automated pipeline, enabling proactive infrastructure monitoring and issue detection"
+		},
+		{
+			"id": "ai-hr-analytics",
+			"title": "AI-Powered HR Analytics System",
+			"description": "Built an LLM-powered HR analytics platform using Amazon Bedrock that transforms natural language queries into actionable data insights from MongoDB, enabling HR teams to access complex analytics through conversational queries.",
+			"technologies": [
+				"Amazon Bedrock",
+				"Claude 3.5 Sonnet",
+				"MongoDB",
+				"FastAPI",
+				"Docker",
+				"Gunicorn",
+				"Python"
+			],
+			"highlights": [
+				"Integrated Amazon Bedrock with Claude 3.5 Sonnet for natural language understanding and query processing",
+				"Built dual-engine architecture: simple engine for basic queries and complex engine with MongoDB aggregation pipelines",
+				"Implemented 15+ analytical query types including conversion rates, time-to-hire metrics, and demographic distributions",
+				"Achieved 70% cost reduction through multi-level caching of LLM responses and MongoDB query results",
+				"Deployed production-ready FastAPI application with streaming responses and comprehensive error handling",
+				"Optimized for Turkish language support with query processing time of 5-15 seconds and 85%+ success rate"
+			],
+			"outcome": "Delivered conversational analytics platform that eliminates the need for SQL knowledge, accelerating hiring decisions and improving recruitment efficiency for client HR teams"
+		},
+		{
+			"id": "eks-deployment-monitoring",
+			"title": "EKS Deployment and Monitoring Project",
+			"description": "Set up production-ready Kubernetes environment on AWS EKS with n8n workflow automation and Open WebUI, including comprehensive monitoring and logging infrastructure.",
+			"technologies": [
+				"AWS EKS",
+				"Terraform",
+				"Kubernetes",
+				"n8n",
+				"Open WebUI",
+				"PostgreSQL",
+				"Redis",
+				"HPA",
+				"Fluentd",
+				"CloudWatch",
+				"Grafana",
+				"Prometheus",
+				"OpenTelemetry",
+				"ALB"
+			],
+			"highlights": [
+				"Implemented Infrastructure as Code with Terraform for reproducible deployments",
+				"Deployed n8n workflow automation with main-worker architecture and horizontal pod autoscaling",
+				"Configured Application Load Balancer with multi-service ingress and DNS routing",
+				"Set up centralized logging with Fluentd DaemonSet forwarding to CloudWatch",
+				"Built comprehensive monitoring dashboards using Grafana, Prometheus, and OpenTelemetry",
+				"Resolved complex RBAC permissions, resource constraints, and load balancer routing challenges"
+			],
+			"outcome": "Delivered production-ready Kubernetes cluster with automated scaling, full observability, and centralized logging infrastructure"
+		},
+		{
+			"id": "venue-discovery-chatbot",
+			"title": "Venue Discovery Chatbot with AWS Bedrock",
+			"description": "Developed an intelligent venue search chatbot using AWS Bedrock and Claude v2 that processes natural language queries in Turkish to extract structured search parameters for a discovery platform.",
+			"technologies": [
+				"AWS Bedrock",
+				"Claude v2",
+				"AWS Lambda",
+				"API Gateway",
+				"Python",
+				"JSON Schema"
+			],
+			"highlights": [
+				"Built serverless Lambda architecture with prompt builder, Bedrock model integration, and response parsing components",
+				"Implemented Anthropic Claude v2 model with optimized parameters for consistent JSON output generation",
+				"Designed constrained prompt templates with Turkish instructions and enumerated value constraints for accurate entity extraction",
+				"Created curated data artifacts for standardized venue amenity tags and validated location fields",
+				"Developed robust error handling and request validation within the API Gateway integration",
+				"Enabled natural language search for complex queries"
+			],
+			"outcome": "Delivered an intelligent search interface that simplifies complex venue discovery, allowing users to find locations using natural language instead of complex forms"
+		},
+		{
+			"id": "on-premise-aws-migration",
+			"title": "On-Premise to AWS Migration",
+			"description": "Migrated customer's on-premise frontend and backend servers to AWS with zero downtime, implementing Infrastructure as Code and load balancing.",
+			"technologies": [
+				"Terraform",
+				"AWS EC2",
+				"RDS",
+				"S3",
+				"ALB",
+				"Nginx",
+				"PHP-FPM",
+				"Laravel",
+				"MySQL",
+				"Rsync",
+				"SSL/TLS"
+			],
+			"highlights": [
+				"Coded entire AWS infrastructure with Terraform (VPC, subnets, security groups, RDS, S3, EC2)",
+				"Migrated Ubuntu servers using Rsync for file transfer",
+				"Transferred MySQL database dump to RDS with complete configuration",
+				"Configured Application Load Balancer with path-based routing (/api/docs to backend, others to frontend)",
+				"Set up health checks and achieved healthy instance status",
+				"Resolved complex debugging issues, fixed permission conflicts, restored broken database connections, optimized routing, and successfully regained access to previously restricted data after credential removal."
+			],
+			"outcome": "Successfully migrated on-premise infrastructure to AWS with ALB load balancing, optimized routing, and production-ready configuration"
+		},
+		{
+			"id": "rekognition-face-management",
+			"title": "AWS Rekognition Face Management System",
+			"description": "Developed an automated profile photo management system that maintains synchronization across Amazon S3, Rekognition Face Collection, and asset storage, ensuring consistent facial recognition and profile display.",
+			"technologies": [
+				"AWS Rekognition",
+				"AWS Lambda",
+				"Amazon S3",
+				"IAM",
+				"CloudWatch",
+				"Python"
+			],
+			"highlights": [
+				"Built automated Lambda workflow triggered by S3 events to synchronize profile photos across three storage locations",
+				"Implemented atomic synchronization with transaction-like behavior and rollback on failures",
+				"Configured Rekognition IndexFaces and DeleteFaces APIs for automatic face collection updates",
+				"Handled edge cases including multi-face detection, photos without faces, and S3 overwrite timing",
+				"Optimized costs with S3 lifecycle policies and event filtering for targeted Lambda triggers",
+				"Added dead letter queue for retry attempts and comprehensive error handling"
+			],
+			"outcome": "Eliminated manual synchronization operations and reduced photo inconsistency issues to zero, ensuring seamless profile updates and reliable facial recognition features"
+		},
+		{
+			"id": "s3-cloudfront-pipeline",
+			"title": "S3 - CloudFront CI/CD Pipeline",
+			"description": "Built fully automated CI/CD pipeline for Next.js website using GitHub Actions, AWS S3, and CloudFront with OIDC authentication and custom domain configuration.",
+			"technologies": [
+				"GitHub Actions",
+				"AWS S3",
+				"CloudFront",
+				"OIDC",
+				"IAM",
+				"CloudFront Functions",
+				"SSL/TLS"
+			],
+			"highlights": [
+				"Configured OIDC authentication and IAM roles for secure AWS integration",
+				"Automated build, S3 sync, and CloudFront invalidation on every push",
+				"Implemented CloudFront Function for pretty URL redirects",
+				"Configured HTTPS with SSL certificate and custom domain",
+				"Restricted S3 bucket access to CloudFront service principal only"
+			],
+			"outcome": "Fully automated deployment pipeline: Push → Build → S3 Deploy → CloudFront Invalidation with production-ready, secure infrastructure"
+		},
+		{
+			"id": "s3-presigned-url",
+			"title": "S3 Presigned URL Secure Upload System",
+			"description": "Built secure file upload system using AWS Lambda and API Gateway to generate temporary presigned URLs for direct S3 uploads.",
+			"technologies": [
+				"AWS Lambda",
+				"API Gateway",
+				"S3",
+				"IAM",
+				"Python"
+			],
+			"highlights": [
+				"Created Lambda function to generate time-limited presigned URLs (15 minutes)",
+				"Configured IAM roles with S3 PutObject permissions",
+				"Integrated REST API endpoint with API Gateway",
+				"Updated S3 bucket policy to accept only presigned URL uploads"
+			],
+			"outcome": "Secure, scalable file upload infrastructure where clients receive temporary URLs via API for direct S3 uploads"
 		}
 	],
 	"education": [
@@ -75,13 +280,29 @@
 			"institution": "Istanbul Aydın University",
 			"degree": "BS Computer Engineering",
 			"field": "Computer Engineering",
-			"gpa": "3.27/4",
+			"gpa": "3.3/4",
 			"startYear": 2021,
+			"endYear": 2026,
 			"activities": [
-				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#",
-				"Organization Core member at Google Developer Student Club (GDSC)",
-				"AWS Cloud Club Core Team Member"
+				"UAV TeknoFest Team - Research on ground station configuration and implementation using C#"
 			]
+		},
+		{
+			"id": "antalya-aci",
+			"institution": "Antalya Açı Science High School",
+			"degree": "High School Diploma",
+			"field": "Maths and Science",
+			"startYear": 2018,
+			"endYear": 2020
+		},
+		{
+			"id": "adem-tolunay",
+			"institution": "Adem Tolunay Anatolian High School",
+			"degree": "High School Diploma",
+			"field": "Maths and Science",
+			"gpa": "96/100",
+			"startYear": 2016,
+			"endYear": 2018
 		}
 	],
 	"certificates": [
@@ -96,12 +317,6 @@
 			"issuer": "Amazon Web Services",
 			"date": "2025",
 			"image": "/images/certificates/certificate-2.png"
-		},
-		{
-			"title": "aws-serverless-badge",
-			"issuer": "Amazon Web Services",
-			"date": "2025",
-			"image": "/images/certificates/certificate-3.png"
 		}
 	],
 	"volunteerWork": [
@@ -110,7 +325,7 @@
 			"organization": "AWS Cloud Club in Istanbul",
 			"role": "Core Team Member",
 			"startDate": "04.2024",
-			"endDate": "Present",
+			"endDate": "02.2025",
 			"description": "AWS Cloud Club in Istanbul brings together cloud computing enthusiasts. We organize events and workshops using AWS services."
 		},
 		{
@@ -134,7 +349,6 @@
 		{
 			"id": "ai-specialization",
 			"program": "Republic Of Türkiye Ministry of Industry and Technology - Artificial Intelligence Specialization Program",
-			"role": "mentee",
 			"startDate": "10.2024",
 			"endDate": "02.2025",
 			"description": "After completing foundational training, I was selected among 120 participants for an advanced AI specialization program, receiving training and project guidance from experts at leading organizations like Cezeri and TÜBİTAK."
@@ -169,41 +383,61 @@
 	],
 	"technicalSkills": [
 		{
-			"category": "Programming Languages",
-			"skills": ["Java (Swing)", "SQL", "HTML/CSS/JS/PHP", "C#", "Python"]
-		},
-		{
-			"category": "Cloud Platforms",
-			"skills": ["AWS", "Azure"]
-		},
-		{
-			"category": "AWS Services",
+			"category": "AI/ML",
 			"skills": [
-				"ECS",
-				"EKS",
-				"Lambda",
-				"S3",
-				"RDS",
-				"DynamoDB",
-				"API Gateway",
-				"SNS",
-				"SQS",
-				"Bedrock"
+				"Bedrock",
+				"SageMaker",
+				"MLflow",
+				"Agentic Chatbot"
 			]
 		},
 		{
-			"category": "DevOps and Tools",
-			"skills": ["Docker", "Terraform", "Git", "CI/CD", "Nginx"]
+			"category": "Cloud and DevOps",
+			"skills": [
+				"AWS Managed Services (ECS, Lambda, EKS, EC2, S3)",
+				"Kubernetes",
+				"Terraform",
+				"Docker",
+				"CI/CD",
+				"CloudFormation"
+			]
 		},
 		{
-			"category": "Data and Analytics",
-			"skills": ["Data Structure", "Tableau", "Data Analytics"]
+			"category": "Monitoring and Observability",
+			"skills": [
+				"Prometheus",
+				"Grafana",
+				"OpenTelemetry",
+				"CloudWatch"
+			]
+		},
+		{
+			"category": "Data and Systems",
+			"skills": [
+				"RDS",
+				"DynamoDB",
+				"SQL",
+				"Redis",
+				"ETL pipelines"
+			]
+		},
+		{
+			"category": "Programming and Development",
+			"skills": [
+				"Python",
+				"Java (Swing)",
+				"React.js",
+				"HTML/CSS/JS/PHP",
+				"C#",
+				"Linux",
+				"Data Structures"
+			]
 		}
 	],
 	"languages": [
 		{
 			"language": "English",
-			"proficiency": "Fluent"
+			"proficiency": "B2"
 		},
 		{
 			"language": "German",
