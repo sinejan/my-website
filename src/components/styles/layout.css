@@ -177,27 +177,47 @@ section {
 
 /* Responsive Navigation */
 @media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    transform: none;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .nav-container {
+    padding: var(--space-3) var(--space-4);
+  }
+
   .nav-toggle {
     display: flex;
   }
   
   .nav-menu {
     position: fixed;
-    left: -100%;
-    top: 70px;
+    left: 0;
+    top: 60px; /* Adjusted for typical mobile navbar height */
     flex-direction: column;
     background: var(--bg-primary);
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     box-shadow: var(--shadow-lg);
     border-top: 1px solid var(--border-light);
     padding: var(--space-6) 0;
     gap: var(--space-4);
+    transform: translateY(-150%); /* Hide by moving up */
+    opacity: 0;
+    pointer-events: none; /* Prevent clicks when hidden */
   }
   
   .nav-menu.active {
-    left: 0;
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
   }
   
   .nav-link {
