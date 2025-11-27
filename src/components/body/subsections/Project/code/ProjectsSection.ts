@@ -66,14 +66,13 @@ export class ProjectsSection {
       <div class="container">
         <h2 class="section-title">Projects</h2>
         <div class="projects-showcase">
-          ${visibleProjects.map((project, idx) => {
-      const isEven = idx % 2 === 0;
+          ${visibleProjects.map((project) => {
+
       return `
-            <article class="project-card ${isEven ? 'layout-normal' : 'layout-mirrored'} card-interactive" data-project-id="${project.id}">
+            <article class="project-card layout-normal card-interactive" data-project-id="${project.id}">
               <!-- Left Content Area -->
               <div class="project-left-area">
-                ${isEven ? `
-                  <!-- Icon and Title (Left side for even cards) -->
+                  <!-- Icon and Title (Left side) -->
                   <div class="project-icon-section">
                     <div class="project-icon-badge">
                       <i data-lucide="${this.getIcon(project.id)}"></i>
@@ -83,36 +82,11 @@ export class ProjectsSection {
                       <p class="project-description">${project.description}</p>
                     </div>
                   </div>
-                ` : `
-                  <!-- Technologies (Right side content for odd cards) -->
-                  <div class="project-meta-section">
-                    <div class="tech-section">
-                      <h4>Technologies</h4>
-                      <div class="tech-grid">
-                        ${project.technologies.slice(0, 4).map(tech => `
-                          <span class="tech-tag">${tech}</span>
-                        `).join('')}
-                      </div>
-                    </div>
-                  </div>
-                `}
               </div>
 
               <!-- Right Content Area -->
               <div class="project-right-area">
-                ${!isEven ? `
-                  <!-- Icon and Title (Right side for odd cards) -->
-                  <div class="project-icon-section">
-                    <div class="project-icon-badge">
-                      <i data-lucide="${this.getIcon(project.id)}"></i>
-                    </div>
-                    <div class="project-main-info">
-                      <h3 class="project-title">${project.title}</h3>
-                      <p class="project-description">${project.description}</p>
-                    </div>
-                  </div>
-                ` : `
-                  <!-- Technologies (Left side content for even cards) -->
+                  <!-- Technologies (Right side) -->
                   <div class="project-meta-section">
                     <div class="tech-section">
                       <h4>Technologies</h4>
@@ -123,7 +97,6 @@ export class ProjectsSection {
                       </div>
                     </div>
                   </div>
-                `}
               </div>
 
               <!-- Bottom Action Area (Always same position) -->
