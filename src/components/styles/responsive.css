@@ -16,31 +16,31 @@
   .container {
     padding: 0 var(--space-4);
   }
-  
+
   .hero-container {
-    padding-left: var(--space-3);
-    padding-right: var(--space-3);
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
   }
-  
+
   .section-title {
     font-size: 1.75rem;
   }
-  
+
   .hero-buttons {
     flex-direction: column;
     gap: var(--space-3);
   }
-  
+
   .hero-buttons .btn {
     width: 100%;
     justify-content: center;
   }
-  
+
   .about-actions {
     flex-direction: column;
     gap: var(--space-3);
   }
-  
+
   .about-actions .btn {
     width: 100%;
   }
@@ -51,12 +51,12 @@
   .container {
     max-width: 540px;
   }
-  
+
   .overview-grid {
     grid-template-columns: 1fr;
     gap: var(--space-4);
   }
-  
+
   .contact-grid {
     grid-template-columns: 1fr;
     gap: var(--space-4);
@@ -68,22 +68,22 @@
   .container {
     max-width: 720px;
   }
-  
+
   .hero-content {
     grid-template-columns: 1fr;
     gap: var(--space-8);
   }
-  
+
   .overview-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-5);
   }
-  
+
   .contact-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--space-5);
   }
-  
+
   .nav-menu {
     gap: var(--space-4);
   }
@@ -94,17 +94,17 @@
   .container {
     max-width: 960px;
   }
-  
+
   .hero-content {
     grid-template-columns: 1fr 1fr;
     gap: var(--space-10);
   }
-  
+
   .overview-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-6);
   }
-  
+
   .contact-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-6);
@@ -116,7 +116,7 @@
   .container {
     max-width: 1140px;
   }
-  
+
   .hero-content {
     grid-template-columns: 1fr 1fr;
     gap: var(--space-12);
@@ -135,19 +135,19 @@
   h1 {
     font-size: clamp(2rem, 8vw, 2.5rem);
   }
-  
+
   h2 {
     font-size: clamp(1.5rem, 6vw, 2rem);
   }
-  
+
   h3 {
     font-size: clamp(1.25rem, 5vw, 1.5rem);
   }
-  
+
   .hero-subtitle {
     font-size: 1.25rem;
   }
-  
+
   .hero-description {
     font-size: 1rem;
   }
@@ -155,19 +155,21 @@
 
 /* Responsive spacing */
 @media (max-width: 768px) {
+
   .hero-section,
   .about-section,
   .overview-section,
   .contact-section {
     padding: var(--space-12) 0;
   }
-  
+
   .footer {
     padding: var(--space-8) 0 var(--space-6);
   }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
   .hero-section,
   .about-section,
   .overview-section,
@@ -189,7 +191,7 @@
   .hide-mobile {
     display: none;
   }
-  
+
   .show-mobile {
     display: block;
   }
@@ -207,7 +209,7 @@
   .hide-tablet {
     display: none;
   }
-  
+
   .show-tablet {
     display: block;
   }
@@ -225,7 +227,7 @@
   .hide-desktop {
     display: none;
   }
-  
+
   .show-desktop {
     display: block;
   }
@@ -233,6 +235,7 @@
 
 /* Print styles */
 @media print {
+
   .navbar,
   .hero-buttons,
   .about-actions,
@@ -240,14 +243,14 @@
   .nav-toggle {
     display: none !important;
   }
-  
+
   body {
     font-size: 12pt;
     line-height: 1.4;
     color: #000;
     background: #fff;
   }
-  
+
   .hero-section,
   .about-section,
   .overview-section,
@@ -255,12 +258,12 @@
     padding: 20pt 0;
     page-break-inside: avoid;
   }
-  
+
   .section-title {
     font-size: 18pt;
     margin-bottom: 12pt;
   }
-  
+
   .overview-card,
   .contact-card,
   .about-card {
