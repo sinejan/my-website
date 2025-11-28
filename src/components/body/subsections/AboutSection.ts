@@ -22,7 +22,7 @@ export class AboutSection {
     }
   }
 
-  private renderAboutContent(personalInfo: PersonalInfo): void {
+  private renderAboutContent(_personalInfo: PersonalInfo): void {
     if (!this.container) return;
 
     this.container.innerHTML = `
@@ -30,7 +30,7 @@ export class AboutSection {
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
           <div class="about-card">
-            <p class="about-description">${personalInfo.bio}</p>
+            <!-- Action Buttons -->
             <div class="about-actions">
               <button class="btn btn-outline" onclick="openModal('experience-modal')">
                 Professional Experience
@@ -46,5 +46,10 @@ export class AboutSection {
         </div>
       </div>
     `;
+
+    // Re-initialize Lucide icons if needed
+    if ((window as any).lucide?.createIcons) {
+      (window as any).lucide.createIcons();
+    }
   }
 }
