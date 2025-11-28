@@ -189,7 +189,7 @@
 			"description": "Migrated customer's on-premise frontend and backend servers to AWS with zero downtime, implementing Infrastructure as Code and load balancing.",
 			"technologies": [
 				"Terraform",
-				"AWS EC2",
+				"AWS EC2 ASG",
 				"RDS",
 				"Rsync Transfer",
 				"ALB",
